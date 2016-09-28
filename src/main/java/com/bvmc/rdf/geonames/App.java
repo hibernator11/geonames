@@ -20,7 +20,7 @@ public class App
         	H2Database.createDatabaseScheme();
 		    Geonames.launchMatchingProcess();
 		    
-    		//H2Database2RDF.generateRDF();
+    		H2Database2RDF.generateRDF();
         } catch (SQLException e1) {
 			System.out.println("Error creating H2 database");
 		}
